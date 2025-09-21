@@ -1,0 +1,261 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Whats up",
+                "hey there",
+                "good morning",
+                "good afternoon",
+                "good evening",
+                "how are you doing"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey :-)",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "See you later",
+                "Goodbye",
+                "bye bye",
+                "see ya",
+                "talk to you later",
+                "have a good day"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Sad to see you go :(",
+                "Have a good day",
+                "Goodbye!",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Thats helpful",
+                "Thank's a lot!",
+                "thank you very much",
+                "thanks a lot",
+                "appreciate it"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time1",
+                "My Pleasure"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Tarun.",
+                "I'm Tarun!",
+                "I'm Tarun aka Tarun Data Scientist."
+            ]
+        },
+        {
+            "tag": "payements",
+            "patterns": [
+                "Do you take credit cards",
+                "Do you accept Mastercards?",
+                "Can I Pay with Paypal?",
+                "Are you cash only?",
+                "COD"
+            ],
+            "responses": [
+                "We accept VISA, Mastercard and Paypal",
+                "We accept most major Credit cards, Master Card, Paypal, American Express and Discover."
+            ]
+        },
+        {
+            "tag": "shop",
+            "patterns": [
+                "What items do you have?",
+                "Id like to buy something",
+                "whats on the menu",
+                "what do you reccommend?",
+                "what do you sell?",
+                "what products do you sell",
+                "what items are available",
+                "show me your catalog",
+                "what can I buy"
+            ],
+            "responses": [
+                "We sell Cake, Flowers, Gifts and delivery across 2500+ cities in India!",
+                "We have Cakes, Flowers and Gifts are on the menu!"
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "when are you guys open",
+                "what are your hours",
+                "hours of operation",
+                "what are your business hours",
+                "when are you open until",
+                "what time do you close"
+            ],
+            "responses": [
+                "We are open 24/7!"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "How long does delivery take?",
+                "How long does shiping take?",
+                "When do I get my delivery",
+                "where is my order",
+                "track my package",
+                "what is the status of my shipment"
+            ],
+            "responses": [
+                "We have the largest Same day delivery Network In India, Which cover 10,000+ Cities, towns and villages of the India"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny1",
+                "Do you know a joke?",
+                "I want to cancel my purchase",
+                "can I stop my order"
+            ],
+            "responses": [
+                "I ate a clock yesterday, it was very time-consuming.",
+                "I can\u2019t believe I got fired from the calendar factory. All I did was take a day off!",
+                "I went to see the doctor about my short-term memory problems \u2014 the first thing he did was make me pay in advance",
+                "You have two parts of the brain, \u201cleft\u201d and \u201cright\u201d. On the left side, there\u2019s nothing right and on the right side, there\u2019s nothing left."
+            ]
+        },
+        {
+            "tag": "summary",
+            "patterns": [
+                "What is my status of order no",
+                "I want to know about my order status",
+                "Can you track my order",
+                "Order"
+            ],
+            "responses": [
+                "To check the delivery status-related query please send a Whatsapp message at 9829006028, Our team reply there and resolved your concern only on the WhatsApp. Thanks"
+            ]
+        },
+        {
+            "tag": "reject",
+            "patterns": [
+                "I want to cancel my order",
+                "Can you cancel my order",
+                "Order cancel"
+            ],
+            "responses": [
+                "For cancel your sent mail on order@cakegift.in"
+            ]
+        },
+        {
+            "tag": "notwant",
+            "patterns": [
+                "I want my money refund ",
+                "can you return my money",
+                "Refund or return"
+            ],
+            "responses": [
+                "For refund, sent mail on support@cakegift.in"
+            ]
+        },
+        {
+            "tag": "shipping",
+            "patterns": [
+                "what are your shipping options",
+                "how much is shipping",
+                "do you offer free shipping",
+                "how long does shipping take",
+                "what shipping carriers do you use"
+            ],
+            "responses": [
+                "We offer standard and express shipping options. Shipping costs vary based on your location and the weight of your order.",
+                "Shipping times typically range from 3-7 business days for standard shipping.",
+                "Yes, we offer free standard shipping on orders over a certain amount.",
+                "We use multiple carriers including FedEx, UPS, and USPS."
+            ]
+        },
+        {
+            "tag": "payment",
+            "patterns": [
+                "what payment methods do you accept",
+                "can I pay with PayPal",
+                "do you take debit cards",
+                "is it safe to pay online"
+            ],
+            "responses": [
+                "We accept major credit cards (Visa, Mastercard, American Express), PayPal, and debit cards.",
+                "Yes, we accept PayPal.",
+                "Yes, we take debit cards.",
+                "Yes, our online payment system is secure and encrypted."
+            ]
+        },
+        {
+            "tag": "returns",
+            "patterns": [
+                "how do I return an item",
+                "what is your return policy",
+                "can I get a refund",
+                "how long do refunds take"
+            ],
+            "responses": [
+                "Please visit our returns page on our website for detailed instructions on how to return an item.",
+                "You can return most items within 30 days of purchase for a full refund.",
+                "Yes, you can get a refund if the item meets our return policy criteria.",
+                "Refunds are usually processed within 5-10 business days after we receive the returned item."
+            ]
+        },
+        {
+            "tag": "account",
+            "patterns": [
+                "how do I create an account",
+                "I forgot my password",
+                "how do I update my account information",
+                "can I change my email address"
+            ],
+            "responses": [
+                "You can create an account by clicking on the 'Sign Up' link on our website.",
+                "Click on the 'Forgot Password' link on the login page to reset your password.",
+                "You can update your account information by logging into your account settings.",
+                "Yes, you can change your email address in your account settings."
+            ]
+        },
+        {
+            "tag": "availability",
+            "patterns": [
+                "is this item in stock",
+                "when will this be available again",
+                "do you have this in my size",
+                "is this product still available"
+            ],
+            "responses": [
+                "Please check the product page for real-time stock information.",
+                "If an item is out of stock, you can often sign up for notifications to be alerted when it's back.",
+                "Our product pages list the available sizes.",
+                "The product page will indicate if the product is still available."
+            ]
+        }
+    ]
+}
